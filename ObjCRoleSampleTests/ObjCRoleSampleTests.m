@@ -32,17 +32,11 @@
     Book *book = [[Book alloc] init];
     book.title = @"hoge";
     book.price = 420;
-    
-   // id role = [BookPurchase alloc];
-   // [role setTarget:book];
-//    [role purchase];
-    
-    
+   
     Book<BookPurchase> *extened = [book roleExtendedWithRoleClass:BookPurchase.class];
     
     [extened purchase];
     
-    STFail(@"Unit tests are not implemented yet in ObjCRoleSampleTests");
 }
 
 @end
