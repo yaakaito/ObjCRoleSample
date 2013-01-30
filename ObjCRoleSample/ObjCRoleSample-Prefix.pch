@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ObjCRoleSample' target in the 'ObjCRoleSample' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
