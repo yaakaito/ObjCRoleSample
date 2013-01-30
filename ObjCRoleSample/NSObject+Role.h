@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (Role)
-- (id)roleExtendedWithRoleClass:(Class)clazz;
+- (id)roleExtended:(Class)clazz;
 @end

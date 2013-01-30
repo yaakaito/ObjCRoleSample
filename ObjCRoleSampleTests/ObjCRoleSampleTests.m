@@ -33,9 +33,9 @@
     book.title = @"hoge";
     book.price = 420;
    
-    Book<BookPurchase> *extened = [book roleExtendedWithRoleClass:BookPurchase.class];
+    Book<BookPurchase> *extended = [book roleExtended:BookPurchase.class];
     
-    [extened purchase];
+    [extended purchase];
     
 }
 

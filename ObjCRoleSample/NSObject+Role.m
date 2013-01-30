@@ -11,7 +11,7 @@
 
 @implementation NSObject (Role)
 
-- (id)roleExtendedWithRoleClass:(Class)clazz
+- (id)roleExtended:(Class)clazz
 {
     id role = [clazz alloc];
     [role setTarget:self];
