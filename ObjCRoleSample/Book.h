@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BookPurchase.h"
 
-@interface Book : NSObject
+@interface Book : NSObject <BookPurchase>
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic) NSUInteger price;
 @end
