@@ -16,6 +16,14 @@
 		B9EB220316B97389007945C0 /* libObjCRoleSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EB21EA16B97389007945C0 /* libObjCRoleSample.a */; };
 		B9EB220916B97389007945C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9EB220716B97389007945C0 /* InfoPlist.strings */; };
 		B9EB220C16B97389007945C0 /* ObjCRoleSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB220B16B97389007945C0 /* ObjCRoleSampleTests.m */; };
+		B9EB221716B9740F007945C0 /* OCRole.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB221616B9740F007945C0 /* OCRole.m */; };
+		B9EB221816B9740F007945C0 /* OCRole.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB221616B9740F007945C0 /* OCRole.m */; };
+		B9EB221B16B97560007945C0 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB221A16B97560007945C0 /* Book.m */; };
+		B9EB221C16B97560007945C0 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB221A16B97560007945C0 /* Book.m */; };
+		B9EB221F16B97585007945C0 /* BookPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB221E16B97585007945C0 /* BookPurchase.m */; };
+		B9EB222016B97585007945C0 /* BookPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB221E16B97585007945C0 /* BookPurchase.m */; };
+		B9EB222316B97991007945C0 /* NSObject+Role.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB222216B97991007945C0 /* NSObject+Role.m */; };
+		B9EB222416B97991007945C0 /* NSObject+Role.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EB222216B97991007945C0 /* NSObject+Role.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,14 @@
 		B9EB220816B97389007945C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9EB220A16B97389007945C0 /* ObjCRoleSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCRoleSampleTests.h; sourceTree = "<group>"; };
 		B9EB220B16B97389007945C0 /* ObjCRoleSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCRoleSampleTests.m; sourceTree = "<group>"; };
+		B9EB221516B9740F007945C0 /* OCRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRole.h; sourceTree = "<group>"; };
+		B9EB221616B9740F007945C0 /* OCRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCRole.m; sourceTree = "<group>"; };
+		B9EB221916B97560007945C0 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		B9EB221A16B97560007945C0 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		B9EB221D16B97585007945C0 /* BookPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookPurchase.h; sourceTree = "<group>"; };
+		B9EB221E16B97585007945C0 /* BookPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookPurchase.m; sourceTree = "<group>"; };
+		B9EB222116B97991007945C0 /* NSObject+Role.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Role.h"; sourceTree = "<group>"; };
+		B9EB222216B97991007945C0 /* NSObject+Role.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Role.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +130,14 @@
 				B9EB21F216B97389007945C0 /* ObjCRoleSample.h */,
 				B9EB21F416B97389007945C0 /* ObjCRoleSample.m */,
 				B9EB21F016B97389007945C0 /* Supporting Files */,
+				B9EB221516B9740F007945C0 /* OCRole.h */,
+				B9EB221616B9740F007945C0 /* OCRole.m */,
+				B9EB221916B97560007945C0 /* Book.h */,
+				B9EB221A16B97560007945C0 /* Book.m */,
+				B9EB221D16B97585007945C0 /* BookPurchase.h */,
+				B9EB221E16B97585007945C0 /* BookPurchase.m */,
+				B9EB222116B97991007945C0 /* NSObject+Role.h */,
+				B9EB222216B97991007945C0 /* NSObject+Role.m */,
 			);
 			path = ObjCRoleSample;
 			sourceTree = "<group>";
@@ -244,6 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9EB21F516B97389007945C0 /* ObjCRoleSample.m in Sources */,
+				B9EB221716B9740F007945C0 /* OCRole.m in Sources */,
+				B9EB221B16B97560007945C0 /* Book.m in Sources */,
+				B9EB221F16B97585007945C0 /* BookPurchase.m in Sources */,
+				B9EB222316B97991007945C0 /* NSObject+Role.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9EB220C16B97389007945C0 /* ObjCRoleSampleTests.m in Sources */,
+				B9EB221816B9740F007945C0 /* OCRole.m in Sources */,
+				B9EB221C16B97560007945C0 /* Book.m in Sources */,
+				B9EB222016B97585007945C0 /* BookPurchase.m in Sources */,
+				B9EB222416B97991007945C0 /* NSObject+Role.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

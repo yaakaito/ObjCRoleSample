@@ -7,6 +7,9 @@
 //
 
 #import "ObjCRoleSampleTests.h"
+#import "Book.h"
+#import "BookPurchase.h"
+#import "NSObject+Role.h"
 
 @implementation ObjCRoleSampleTests
 
@@ -26,6 +29,22 @@
 
 - (void)testExample
 {
+    Book *book = [[Book alloc] init];
+    book.title = @"hoge";
+    book.price = 420;
+    
+   // id role = [BookPurchase alloc];
+   // [role setTarget:book];
+//    [role purchase];
+    
+    
+    Book<BookPurchase> *extened = [book roleExtendedWithRoleClass:BookPurchase.class];
+    
+    [extened purchase];
+    
+    [book purchase];
+    
+    
     STFail(@"Unit tests are not implemented yet in ObjCRoleSampleTests");
 }
 
